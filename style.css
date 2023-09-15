@@ -1,0 +1,59 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+
+body {
+    background-color: #f0e3f4; /* Light purple background */
+}
+
+.wrapper {
+    position: absolute;
+    width: 75vmin;
+    transform: translate(-50%, -50%);
+    top: 50%;
+    left: 50%;
+}
+
+.container {
+    background-color: #f8f8f8; /* Light gray background */
+    padding: 30px 20px 20px 20px;
+    border-radius: 0px 0px 8px 8px;
+    box-shadow: 0 30px 50px rgba(30, 21, 49, 0.3);
+}
+
+.count {
+    background-color: #9c4caf; /* Purple background */
+    width: 100%;
+    padding: 7px;
+    position: relative;
+    display: flex;
+    font-family: sans-serif;
+    justify-content: space-around;
+    text-align: center;
+    border-radius: 5px 5px 0px 0px;
+}
+
+.count p {
+    color: #ffffff;
+}
+
+.count h5 {
+    color: #ffffff;
+    font-size: 22px;
+}
+
+textarea {
+    width: 100%;
+    border: none;
+    resize: none;
+    outline: none;
+    font-size: 16px;
+    line-height: 28px;
+    padding: 10px;
+    max-height: 280px;
+    color: #2a2a2a; /* Dark gray text color */
+    box-shadow: 0 20px 65px #c68cc6; /* Light purple box shadow */
+}
